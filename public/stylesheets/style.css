@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #a0a0ce;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+.container {
+    width: 400px;
+    height: 700px;
+    background-color: #5A639C;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box; /* Ensure padding is included in the width/height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center align vertically */
+    align-items: center; /* Center align horizontally */
+}
+
+.styled-form input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: calc(100% - 24px); /* Adjust width to account for padding */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.styled-form input[type="password"] {
+    margin-top: 40px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: calc(100% - 24px); /* Adjust width to account for padding */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.styled-form .radio-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.styled-form .radio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.styled-form .radio-item input[type="radio"] {
+    margin-right: 10px;
+}
+
+.styled-form .radio-item label {
+    vertical-align: middle;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.styled-form .range-box {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.styled-form .range-box label {
+    margin-right: 10px;
+    color: rgb(233, 220, 246);
+}
+
+.styled-form button {
+    padding: 12px 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #9B86BD;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.styled-form button:hover {
+    background-color: #7a6d9e; /* Darker shade for hover effect */
+}
+
+button {
+    padding: 12px 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #9B86BD;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #7a6d9e; /* Darker shade for hover effect */
+}
+
+.btn {
+    background-color: rgb(138, 20, 69);
+}
+.btn:hover {
+    background-color: #530f26;
+}

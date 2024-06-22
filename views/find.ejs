@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <div class="container">       
+            <form action="/find" method="post" class="styled-form">
+                
+                <input class="username" type="text" name="username" placeholder="username" value="<%= username %>">
+                <button type="submit">get password</button>
+                <input type="text" name="password" placeholder="password" value="<%= password %>">
+            </form>
+            <form action="/" method="get">
+                <button class="btn">Home</button>
+            </form>
+           
+            
+    </div>
+    <script src="javascripts/script.js">
+        
+    </script>
+</body>
+</html>
